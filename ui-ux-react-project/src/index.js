@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 //import CounterClass from "./components/CounterClass"
@@ -10,10 +10,10 @@ import CounterFunction from "./components/CounterFunction"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <React.StrictMode>
-{/*    
-  <CounterClass/> */}
-  {/* <App /> */}
-  <CounterFunction />
+   
+  {/* <CounterClass/> */}
+   <App />
+  {/* <CounterFunction /> */}
  </React.StrictMode>
   
   
